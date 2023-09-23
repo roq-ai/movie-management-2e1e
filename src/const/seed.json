@@ -1,0 +1,2622 @@
+[
+  {
+    "movie": [
+      {
+        "id": "d7907e75-f48b-47a5-b7de-08ceaeb62e92",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-23T10:28:56.224Z",
+        "genre": "Drama",
+        "rating": 23827,
+        "created_at": "2023-09-22T13:47:45.645Z",
+        "updated_at": "2023-09-23T03:24:31.369Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95477b96-77f6-434f-ad7c-08afd4b222f9",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-22T12:03:46.109Z",
+        "genre": "Crime",
+        "rating": 33560,
+        "created_at": "2023-09-22T20:12:24.847Z",
+        "updated_at": "2023-09-22T18:47:59.653Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7327cac5-7f05-4558-a41a-191279814141",
+        "title": "The Godfather",
+        "movie_director": "Francis Ford Coppola",
+        "release_date": "2023-09-22T22:26:07.582Z",
+        "genre": "Action",
+        "rating": 36146,
+        "created_at": "2023-09-23T06:11:42.671Z",
+        "updated_at": "2023-09-23T01:55:37.895Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4eda03ab-e1a2-46e0-ab28-7aba6348696d",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T21:13:17.277Z",
+        "genre": "Thriller",
+        "rating": 64287,
+        "created_at": "2023-09-23T03:28:06.140Z",
+        "updated_at": "2023-09-22T12:54:45.269Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e960043c-2791-408e-884a-6db1fb391661",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T13:04:49.354Z",
+        "genre": "Sci-Fi",
+        "rating": 10568,
+        "created_at": "2023-09-23T08:49:07.116Z",
+        "updated_at": "2023-09-22T22:55:13.542Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "86b803ad-48f8-42b1-9b23-146e24153623",
+        "content": "This movie was amazing!",
+        "rating": 40252,
+        "review_date": "2023-09-22T23:17:01.870Z",
+        "created_at": "2023-09-22T17:17:33.723Z",
+        "updated_at": "2023-09-22T23:42:25.707Z",
+        "movie_id": "7327cac5-7f05-4558-a41a-191279814141",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8bf9532-97b9-4e65-9d5e-1b1be02def25",
+        "content": "I highly recommend it.",
+        "rating": 58847,
+        "review_date": "2023-09-22T12:02:55.824Z",
+        "created_at": "2023-09-23T03:51:29.379Z",
+        "updated_at": "2023-09-22T19:34:24.967Z",
+        "movie_id": "e960043c-2791-408e-884a-6db1fb391661",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "085d6c76-2533-4563-95f5-c303a4a4cbf3",
+        "content": "The acting was superb.",
+        "rating": 51087,
+        "review_date": "2023-09-22T14:05:23.659Z",
+        "created_at": "2023-09-22T19:41:05.323Z",
+        "updated_at": "2023-09-23T03:30:54.283Z",
+        "movie_id": "e960043c-2791-408e-884a-6db1fb391661",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cae41a65-ce51-4f3f-8ddb-8a4e628851f6",
+        "content": "The plot twist was unexpected.",
+        "rating": 62243,
+        "review_date": "2023-09-22T18:11:52.438Z",
+        "created_at": "2023-09-23T03:30:46.491Z",
+        "updated_at": "2023-09-22T13:02:52.682Z",
+        "movie_id": "95477b96-77f6-434f-ad7c-08afd4b222f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f16e0ada-1bc1-4da4-bb69-b0537a1674a0",
+        "content": "A must-watch for all movie lovers.",
+        "rating": 71727,
+        "review_date": "2023-09-23T01:40:26.328Z",
+        "created_at": "2023-09-23T00:42:50.451Z",
+        "updated_at": "2023-09-23T05:40:45.486Z",
+        "movie_id": "4eda03ab-e1a2-46e0-ab28-7aba6348696d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "1f6084c1-ca60-4c37-bc78-1282fc78af1b",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-23T08:59:27.173Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T21:59:13.636Z",
+        "updated_at": "2023-09-23T06:33:47.855Z",
+        "movie_id": "7327cac5-7f05-4558-a41a-191279814141"
+      },
+      {
+        "id": "13bfc064-2770-497e-b718-f71303f05a9c",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-22T23:57:16.352Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-23T07:04:20.275Z",
+        "updated_at": "2023-09-22T13:27:32.734Z",
+        "movie_id": "7327cac5-7f05-4558-a41a-191279814141"
+      },
+      {
+        "id": "3a9ac35b-5223-47ab-a8a9-9a323796b22c",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-22T20:25:13.919Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T21:05:54.883Z",
+        "updated_at": "2023-09-23T02:47:23.153Z",
+        "movie_id": "d7907e75-f48b-47a5-b7de-08ceaeb62e92"
+      },
+      {
+        "id": "112fb769-21cd-4664-aa6b-ca496273f4a5",
+        "name": "Quentin Tarantino",
+        "birth_date": "2023-09-23T05:56:57.818Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T01:57:11.505Z",
+        "updated_at": "2023-09-22T17:59:58.055Z",
+        "movie_id": "d7907e75-f48b-47a5-b7de-08ceaeb62e92"
+      },
+      {
+        "id": "de097176-8e61-4dc0-afd7-99de38e3bcbd",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-23T04:36:43.816Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T23:37:51.005Z",
+        "updated_at": "2023-09-22T16:39:41.919Z",
+        "movie_id": "7327cac5-7f05-4558-a41a-191279814141"
+      }
+    ],
+    "actor": [
+      {
+        "id": "167c94cf-174e-4948-bbf6-33c183fe4a6d",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-22T23:29:59.450Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T19:48:42.182Z",
+        "updated_at": "2023-09-23T02:52:41.567Z",
+        "movie_id": "4eda03ab-e1a2-46e0-ab28-7aba6348696d"
+      },
+      {
+        "id": "a36d66fd-a2ca-4b0a-b280-6ec7923d2f28",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-22T21:34:11.316Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T23:49:11.885Z",
+        "updated_at": "2023-09-23T09:07:38.674Z",
+        "movie_id": "95477b96-77f6-434f-ad7c-08afd4b222f9"
+      },
+      {
+        "id": "d6e0234a-b4e8-49fe-b400-f0728f54d3cd",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-22T15:54:28.365Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T17:10:07.215Z",
+        "updated_at": "2023-09-23T01:17:37.748Z",
+        "movie_id": "7327cac5-7f05-4558-a41a-191279814141"
+      },
+      {
+        "id": "1e4514e1-c299-4278-8ee7-b04437c65c93",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-22T15:23:50.311Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T16:02:23.436Z",
+        "updated_at": "2023-09-23T03:57:46.457Z",
+        "movie_id": "95477b96-77f6-434f-ad7c-08afd4b222f9"
+      },
+      {
+        "id": "7085d8b1-da31-4322-8860-73b2fdb2dbab",
+        "name": "Jennifer Lawrence",
+        "birth_date": "2023-09-22T14:31:13.474Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-23T00:10:28.631Z",
+        "updated_at": "2023-09-22T21:03:33.854Z",
+        "movie_id": "4eda03ab-e1a2-46e0-ab28-7aba6348696d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b061c444-dade-4c96-982f-55cc2f6d2b08",
+        "email": "Emma_Parisian@roq.tech",
+        "firstName": "Judah",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39882203",
+        "tenantId": null
+      },
+      {
+        "reference": "15d28d48-fda5-4786-8d62-ad7243402f14",
+        "email": "Birdie_Haag6@roq.tech",
+        "firstName": "Nakia",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39428162",
+        "tenantId": null
+      },
+      {
+        "reference": "b476ad5f-fff3-4604-9dda-15868279c78f",
+        "email": "Theron87@roq.tech",
+        "firstName": "Douglas",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "716606a0-8dd4-4934-89e7-9203fa0793c0",
+        "email": "Haley.Macejkovic@roq.tech",
+        "firstName": "Margaretta",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51652676",
+        "tenantId": null
+      },
+      {
+        "reference": "8a5c03a2-8ef5-4b93-b36a-90241a2d299d",
+        "email": "Frederik5@roq.tech",
+        "firstName": "Zella",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1008.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "0b46b3fb-b17c-4f8a-9ec4-104f815d8ef9",
+        "title": "The Matrix",
+        "movie_director": "Lana Wachowski",
+        "release_date": "2023-09-22T23:26:48.080Z",
+        "genre": "Action",
+        "rating": 97645,
+        "created_at": "2023-09-23T01:57:07.789Z",
+        "updated_at": "2023-09-22T18:02:02.725Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b37b82e5-bd46-4f30-a8f8-c0fbdadc484d",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-23T00:45:43.614Z",
+        "genre": "Sci-Fi",
+        "rating": 62092,
+        "created_at": "2023-09-22T11:48:01.033Z",
+        "updated_at": "2023-09-23T08:25:38.715Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9d218d18-ce80-4230-906e-a92aad924a91",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-23T00:28:51.250Z",
+        "genre": "Crime",
+        "rating": 78269,
+        "created_at": "2023-09-23T09:29:31.294Z",
+        "updated_at": "2023-09-22T22:00:25.350Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ad4c7ac-5feb-4f4d-849c-d48e48b15ec9",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-22T13:32:29.443Z",
+        "genre": "Drama",
+        "rating": 91355,
+        "created_at": "2023-09-23T07:09:43.468Z",
+        "updated_at": "2023-09-23T02:14:55.351Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7066d9f8-5d09-494f-a569-c2067e963d6e",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-23T08:51:48.770Z",
+        "genre": "Thriller",
+        "rating": 61859,
+        "created_at": "2023-09-22T19:12:37.586Z",
+        "updated_at": "2023-09-23T04:51:28.362Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "5c5a4063-984e-4675-8823-c3f12969e53f",
+        "content": "This movie was amazing!",
+        "rating": 2551,
+        "review_date": "2023-09-23T04:27:06.837Z",
+        "created_at": "2023-09-23T08:10:06.845Z",
+        "updated_at": "2023-09-22T20:05:03.142Z",
+        "movie_id": "0b46b3fb-b17c-4f8a-9ec4-104f815d8ef9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b300333c-7633-4c2d-8dc5-cc7b92104682",
+        "content": "Highly recommended!",
+        "rating": 72083,
+        "review_date": "2023-09-22T12:27:29.742Z",
+        "created_at": "2023-09-22T17:04:50.191Z",
+        "updated_at": "2023-09-23T10:24:23.051Z",
+        "movie_id": "9d218d18-ce80-4230-906e-a92aad924a91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82bc2671-01ae-4253-94f2-61d1be5c6f69",
+        "content": "One of the best movies I've ever seen.",
+        "rating": 1008,
+        "review_date": "2023-09-23T06:21:15.684Z",
+        "created_at": "2023-09-23T05:28:29.077Z",
+        "updated_at": "2023-09-22T21:16:54.808Z",
+        "movie_id": "7066d9f8-5d09-494f-a569-c2067e963d6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a274a0c3-1f5e-4612-8258-af3d16f34c22",
+        "content": "A must-watch for all movie lovers.",
+        "rating": 16258,
+        "review_date": "2023-09-22T23:38:06.026Z",
+        "created_at": "2023-09-23T05:24:25.299Z",
+        "updated_at": "2023-09-23T06:07:59.269Z",
+        "movie_id": "5ad4c7ac-5feb-4f4d-849c-d48e48b15ec9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c57ad83-0bc8-4220-b958-c808d0e89336",
+        "content": "Incredible acting and storyline.",
+        "rating": 54426,
+        "review_date": "2023-09-22T11:48:56.369Z",
+        "created_at": "2023-09-22T21:10:45.284Z",
+        "updated_at": "2023-09-23T10:10:36.251Z",
+        "movie_id": "7066d9f8-5d09-494f-a569-c2067e963d6e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "9b3532c1-7375-4786-8153-419f4b3bc9e8",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-22T21:00:51.359Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T11:08:41.573Z",
+        "updated_at": "2023-09-23T05:34:47.196Z",
+        "movie_id": "9d218d18-ce80-4230-906e-a92aad924a91"
+      },
+      {
+        "id": "710d6650-9b53-4a65-ab6e-dfb6a9630690",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-23T00:37:01.328Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-22T19:22:16.277Z",
+        "updated_at": "2023-09-23T01:47:40.444Z",
+        "movie_id": "0b46b3fb-b17c-4f8a-9ec4-104f815d8ef9"
+      },
+      {
+        "id": "8b245453-470a-4d06-84ed-637f2e78b534",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-23T08:31:19.981Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T15:27:59.110Z",
+        "updated_at": "2023-09-23T03:43:27.570Z",
+        "movie_id": "7066d9f8-5d09-494f-a569-c2067e963d6e"
+      },
+      {
+        "id": "58c52560-b8ce-4f39-a396-115712c81f26",
+        "name": "Stanley Kubrick",
+        "birth_date": "2023-09-23T05:05:24.371Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T09:13:54.641Z",
+        "updated_at": "2023-09-22T12:34:09.520Z",
+        "movie_id": "9d218d18-ce80-4230-906e-a92aad924a91"
+      },
+      {
+        "id": "0a1db175-1519-4fe5-8ba1-c58c2699161d",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-23T09:19:20.721Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T19:02:05.303Z",
+        "updated_at": "2023-09-22T14:26:56.919Z",
+        "movie_id": "0b46b3fb-b17c-4f8a-9ec4-104f815d8ef9"
+      }
+    ],
+    "actor": [
+      {
+        "id": "f615ce29-c3f4-4347-b348-3bcf219666b0",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-23T07:54:08.523Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T13:15:47.283Z",
+        "updated_at": "2023-09-22T18:57:01.208Z",
+        "movie_id": "b37b82e5-bd46-4f30-a8f8-c0fbdadc484d"
+      },
+      {
+        "id": "3c3170e6-d0c7-4455-b8ac-3fc5df034ae5",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-22T16:11:15.378Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T16:14:37.947Z",
+        "updated_at": "2023-09-23T08:36:16.126Z",
+        "movie_id": "0b46b3fb-b17c-4f8a-9ec4-104f815d8ef9"
+      },
+      {
+        "id": "96e47a5a-6f5c-4c8c-8622-ab721126d0c4",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-23T02:25:36.745Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T14:52:21.584Z",
+        "updated_at": "2023-09-23T08:41:06.011Z",
+        "movie_id": "0b46b3fb-b17c-4f8a-9ec4-104f815d8ef9"
+      },
+      {
+        "id": "205635aa-2a00-4150-9f1c-0088f2e1c151",
+        "name": "Robert De Niro",
+        "birth_date": "2023-09-22T17:49:25.185Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T02:57:48.766Z",
+        "updated_at": "2023-09-22T19:12:20.935Z",
+        "movie_id": "b37b82e5-bd46-4f30-a8f8-c0fbdadc484d"
+      },
+      {
+        "id": "8aeb6687-0e16-415e-8865-3c4d196d800b",
+        "name": "Jennifer Lawrence",
+        "birth_date": "2023-09-23T01:24:10.988Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T12:35:17.812Z",
+        "updated_at": "2023-09-23T03:31:35.787Z",
+        "movie_id": "b37b82e5-bd46-4f30-a8f8-c0fbdadc484d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4a770854-e627-49f1-99d7-c7dac8199b0a",
+        "email": "Yasmin.Reynolds39@roq.tech",
+        "firstName": "Felix",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "747634aa-7b64-46c0-971b-894a5f91cadb",
+        "email": "Justyn_Howe78@roq.tech",
+        "firstName": "Delphia",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/25.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a6e93e44-c5c6-4310-b845-aeb269aecc29",
+        "email": "Duane29@roq.tech",
+        "firstName": "Selena",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80291237",
+        "tenantId": null
+      },
+      {
+        "reference": "30b97f5e-4b6b-4f84-8eb4-97df8450df6f",
+        "email": "Precious.Heathcote@roq.tech",
+        "firstName": "Robin",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/885.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "30c5009d-6471-496d-b79e-85892ef89cd8",
+        "email": "Francesca_Ward95@roq.tech",
+        "firstName": "Doyle",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/862.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "ef92649b-1d2e-4def-bddd-f905c10b50e2",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-23T09:35:05.032Z",
+        "genre": "Drama",
+        "rating": 9509,
+        "created_at": "2023-09-23T02:45:32.381Z",
+        "updated_at": "2023-09-22T18:49:58.704Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "26cb6af5-272d-4544-b7fd-ac8758367f57",
+        "title": "The Godfather",
+        "movie_director": "Francis Ford Coppola",
+        "release_date": "2023-09-22T22:07:12.485Z",
+        "genre": "Crime",
+        "rating": 91145,
+        "created_at": "2023-09-22T11:44:18.251Z",
+        "updated_at": "2023-09-23T04:13:36.661Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f1cadca1-1133-43de-9aec-99bb5553f2e8",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-22T14:12:22.739Z",
+        "genre": "Thriller",
+        "rating": 40718,
+        "created_at": "2023-09-22T15:54:17.350Z",
+        "updated_at": "2023-09-23T09:08:48.552Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5db42873-1e20-4aff-8c0d-a622a427f090",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T18:40:35.265Z",
+        "genre": "Action",
+        "rating": 80673,
+        "created_at": "2023-09-22T19:35:36.955Z",
+        "updated_at": "2023-09-22T19:04:15.025Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "67183a22-d8ce-488d-a696-0f1786115913",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T13:50:40.480Z",
+        "genre": "Sci-Fi",
+        "rating": 38850,
+        "created_at": "2023-09-23T10:49:19.868Z",
+        "updated_at": "2023-09-22T21:09:45.997Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "9586d32b-8a87-44c6-8e42-11386fe98593",
+        "content": "A gripping and emotional masterpiece",
+        "rating": 76383,
+        "review_date": "2023-09-23T05:21:09.724Z",
+        "created_at": "2023-09-22T15:40:43.871Z",
+        "updated_at": "2023-09-23T03:56:56.879Z",
+        "movie_id": "5db42873-1e20-4aff-8c0d-a622a427f090",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c41713ed-e90a-42c7-977f-876156b65bd9",
+        "content": "Brilliantly acted with a captivating storyline",
+        "rating": 44842,
+        "review_date": "2023-09-23T07:43:41.287Z",
+        "created_at": "2023-09-22T19:20:17.654Z",
+        "updated_at": "2023-09-23T04:38:33.542Z",
+        "movie_id": "f1cadca1-1133-43de-9aec-99bb5553f2e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d53ba2d8-2d45-41cc-9200-62f8dc6b3092",
+        "content": "An intense and thought-provoking film",
+        "rating": 32490,
+        "review_date": "2023-09-22T14:06:05.034Z",
+        "created_at": "2023-09-22T11:51:01.586Z",
+        "updated_at": "2023-09-23T11:23:13.389Z",
+        "movie_id": "26cb6af5-272d-4544-b7fd-ac8758367f57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98d8ee78-2922-4b10-ab97-630c10ce65fc",
+        "content": "A must-watch for any movie enthusiast",
+        "rating": 2841,
+        "review_date": "2023-09-23T01:34:43.928Z",
+        "created_at": "2023-09-22T22:00:48.031Z",
+        "updated_at": "2023-09-23T08:07:29.328Z",
+        "movie_id": "ef92649b-1d2e-4def-bddd-f905c10b50e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b844d903-86dd-4881-a5f9-a60f2dd8620d",
+        "content": "Incredible cinematography and visual effects",
+        "rating": 10021,
+        "review_date": "2023-09-23T03:53:26.130Z",
+        "created_at": "2023-09-22T16:38:34.620Z",
+        "updated_at": "2023-09-23T03:07:22.742Z",
+        "movie_id": "5db42873-1e20-4aff-8c0d-a622a427f090",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "aa17725c-6c4f-4904-8900-f9cdaad899c4",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-22T20:37:36.959Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T07:59:28.820Z",
+        "updated_at": "2023-09-22T20:16:41.723Z",
+        "movie_id": "f1cadca1-1133-43de-9aec-99bb5553f2e8"
+      },
+      {
+        "id": "6fb46a37-1bb5-4bd6-a197-ab06e9234359",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-23T07:11:38.215Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-22T12:12:39.655Z",
+        "updated_at": "2023-09-23T10:19:54.974Z",
+        "movie_id": "5db42873-1e20-4aff-8c0d-a622a427f090"
+      },
+      {
+        "id": "75088103-5683-4461-a997-d39e60e33ecc",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-22T23:02:07.344Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T17:42:09.061Z",
+        "updated_at": "2023-09-23T08:43:49.216Z",
+        "movie_id": "5db42873-1e20-4aff-8c0d-a622a427f090"
+      },
+      {
+        "id": "d5664bcd-ebb4-4ea4-b093-e0b1b410a40d",
+        "name": "Quentin Tarantino",
+        "birth_date": "2023-09-22T12:37:31.088Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T05:32:40.399Z",
+        "updated_at": "2023-09-23T06:50:34.881Z",
+        "movie_id": "f1cadca1-1133-43de-9aec-99bb5553f2e8"
+      },
+      {
+        "id": "c7bc01d3-2372-44a2-b3d2-c1b51151dccd",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-23T08:18:23.195Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T22:23:56.074Z",
+        "updated_at": "2023-09-22T18:37:26.536Z",
+        "movie_id": "f1cadca1-1133-43de-9aec-99bb5553f2e8"
+      }
+    ],
+    "actor": [
+      {
+        "id": "d7dca5ef-c322-489d-a7d1-116dc9f5058d",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-22T21:58:02.955Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T13:28:21.940Z",
+        "updated_at": "2023-09-23T10:50:02.293Z",
+        "movie_id": "ef92649b-1d2e-4def-bddd-f905c10b50e2"
+      },
+      {
+        "id": "39966488-a828-4804-90d0-cf3492914829",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-22T22:20:57.428Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T14:55:48.537Z",
+        "updated_at": "2023-09-22T23:12:24.561Z",
+        "movie_id": "f1cadca1-1133-43de-9aec-99bb5553f2e8"
+      },
+      {
+        "id": "985f0933-c658-4b70-99bb-31b15856dcfa",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-22T13:39:10.379Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-23T07:01:17.241Z",
+        "updated_at": "2023-09-22T17:04:33.741Z",
+        "movie_id": "f1cadca1-1133-43de-9aec-99bb5553f2e8"
+      },
+      {
+        "id": "5a0e20ef-6192-46e5-b8f3-3bb0eb502958",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-22T13:22:47.785Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T15:44:17.006Z",
+        "updated_at": "2023-09-22T19:33:33.642Z",
+        "movie_id": "26cb6af5-272d-4544-b7fd-ac8758367f57"
+      },
+      {
+        "id": "db60ecb4-2983-4f93-a4e4-9bb795a4f488",
+        "name": "Natalie Portman",
+        "birth_date": "2023-09-22T17:29:16.945Z",
+        "nationality": "Israeli",
+        "gender": "Female",
+        "created_at": "2023-09-23T05:05:24.795Z",
+        "updated_at": "2023-09-23T08:10:02.450Z",
+        "movie_id": "ef92649b-1d2e-4def-bddd-f905c10b50e2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78d4564e-e8dc-4c70-8e87-5f530039b5ad",
+        "email": "Taryn.Wolff22@roq.tech",
+        "firstName": "Rosella",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70104411",
+        "tenantId": null
+      },
+      {
+        "reference": "cb8418c2-1e4b-4eb7-bef5-5d6f53c871e7",
+        "email": "Missouri77@roq.tech",
+        "firstName": "Bradley",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "86303941-9703-4ec0-9935-0aa3fbb2a86d",
+        "email": "Margaret97@roq.tech",
+        "firstName": "Clotilde",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6ad3c39e-988b-4944-b2bc-ad6da60523b9",
+        "email": "Misty.Reichel36@roq.tech",
+        "firstName": "Anibal",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1136.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3b772ad-044c-424a-a60b-2a26910b11f1",
+        "email": "Angelica_Davis@roq.tech",
+        "firstName": "Justice",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76356377",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "afb3eca9-c2e6-46d1-acdd-6af58474f3b2",
+        "title": "The Matrix",
+        "movie_director": "Lana Wachowski",
+        "release_date": "2023-09-23T10:10:10.049Z",
+        "genre": "Action",
+        "rating": 87493,
+        "created_at": "2023-09-23T04:35:29.766Z",
+        "updated_at": "2023-09-22T23:52:15.906Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6fe96ab-d06c-4417-b119-8765f5105817",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T15:59:34.601Z",
+        "genre": "Thriller",
+        "rating": 97374,
+        "created_at": "2023-09-23T01:53:38.117Z",
+        "updated_at": "2023-09-23T05:18:48.257Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e9a08a29-3571-4777-9bae-3a31596424fe",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-22T16:06:43.381Z",
+        "genre": "Crime",
+        "rating": 20913,
+        "created_at": "2023-09-23T09:59:03.070Z",
+        "updated_at": "2023-09-22T16:29:42.738Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c8ed254c-ed3b-44eb-97c8-ec159eca70d5",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-22T14:08:03.208Z",
+        "genre": "Drama",
+        "rating": 54300,
+        "created_at": "2023-09-22T19:32:01.625Z",
+        "updated_at": "2023-09-22T15:20:23.246Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc1654c8-481f-404d-8c98-71f46809b822",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-23T00:54:10.055Z",
+        "genre": "Mystery",
+        "rating": 25501,
+        "created_at": "2023-09-23T01:44:42.121Z",
+        "updated_at": "2023-09-22T16:23:35.266Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "d668e448-e2b8-45da-a702-7bac3c898b16",
+        "content": "Great movie, highly recommended!",
+        "rating": 29449,
+        "review_date": "2023-09-22T20:39:01.249Z",
+        "created_at": "2023-09-23T06:19:32.159Z",
+        "updated_at": "2023-09-23T08:20:14.132Z",
+        "movie_id": "afb3eca9-c2e6-46d1-acdd-6af58474f3b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99535127-3726-49f4-b4ac-6e30c627b821",
+        "content": "An absolute masterpiece!",
+        "rating": 25721,
+        "review_date": "2023-09-23T04:55:39.480Z",
+        "created_at": "2023-09-23T05:16:28.374Z",
+        "updated_at": "2023-09-23T05:01:29.492Z",
+        "movie_id": "cc1654c8-481f-404d-8c98-71f46809b822",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35508689-1029-4362-aaa6-0b97ace41098",
+        "content": "Incredible performance by the cast.",
+        "rating": 15706,
+        "review_date": "2023-09-22T20:00:58.863Z",
+        "created_at": "2023-09-23T04:24:33.985Z",
+        "updated_at": "2023-09-23T02:21:57.987Z",
+        "movie_id": "e9a08a29-3571-4777-9bae-3a31596424fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb2a63ba-3f06-4aae-9286-963ccfb250b2",
+        "content": "The plot twists kept me on the edge of my seat.",
+        "rating": 14104,
+        "review_date": "2023-09-23T10:12:25.819Z",
+        "created_at": "2023-09-22T21:50:02.754Z",
+        "updated_at": "2023-09-23T01:00:44.140Z",
+        "movie_id": "c8ed254c-ed3b-44eb-97c8-ec159eca70d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd2658f1-a202-4a95-b760-b9861b195614",
+        "content": "A must-watch for any film enthusiast.",
+        "rating": 99667,
+        "review_date": "2023-09-23T06:19:44.775Z",
+        "created_at": "2023-09-22T21:58:51.345Z",
+        "updated_at": "2023-09-23T06:56:43.240Z",
+        "movie_id": "f6fe96ab-d06c-4417-b119-8765f5105817",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "73846203-2a55-4c4e-bdf5-1bd63f56ed1e",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-23T02:23:45.554Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T07:30:57.681Z",
+        "updated_at": "2023-09-22T18:08:45.968Z",
+        "movie_id": "afb3eca9-c2e6-46d1-acdd-6af58474f3b2"
+      },
+      {
+        "id": "dfa9c688-f164-4502-b42b-cc1683b8f1d2",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-22T13:24:58.586Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-23T02:10:22.155Z",
+        "updated_at": "2023-09-22T21:11:57.840Z",
+        "movie_id": "c8ed254c-ed3b-44eb-97c8-ec159eca70d5"
+      },
+      {
+        "id": "ad3e6e90-4379-4153-8d38-b78cf2ed2766",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-22T16:21:09.904Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-23T06:09:58.710Z",
+        "updated_at": "2023-09-23T11:20:04.255Z",
+        "movie_id": "e9a08a29-3571-4777-9bae-3a31596424fe"
+      },
+      {
+        "id": "19593da0-2e05-45cc-9f54-bb1716bd1568",
+        "name": "Stanley Kubrick",
+        "birth_date": "2023-09-22T12:39:35.993Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T00:34:51.971Z",
+        "updated_at": "2023-09-22T18:54:37.556Z",
+        "movie_id": "c8ed254c-ed3b-44eb-97c8-ec159eca70d5"
+      },
+      {
+        "id": "b5730d48-cfb1-4605-a35c-dfb85c988b98",
+        "name": "James Cameron",
+        "birth_date": "2023-09-23T06:42:15.160Z",
+        "nationality": "Canadian",
+        "gender": "Male",
+        "created_at": "2023-09-22T17:40:08.136Z",
+        "updated_at": "2023-09-22T20:59:07.105Z",
+        "movie_id": "afb3eca9-c2e6-46d1-acdd-6af58474f3b2"
+      }
+    ],
+    "actor": [
+      {
+        "id": "6a4d7a67-bf90-4bb5-ad48-f5f25ff21f05",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-22T13:49:23.492Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T22:28:06.696Z",
+        "updated_at": "2023-09-23T10:23:26.354Z",
+        "movie_id": "f6fe96ab-d06c-4417-b119-8765f5105817"
+      },
+      {
+        "id": "9ad8cdea-d0b3-48a4-83ea-babe407f6d67",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-23T08:54:51.128Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T21:59:05.312Z",
+        "updated_at": "2023-09-23T07:26:21.066Z",
+        "movie_id": "afb3eca9-c2e6-46d1-acdd-6af58474f3b2"
+      },
+      {
+        "id": "489a5369-c01e-44b0-8a8c-1a0f28fcdbfe",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-23T06:44:43.219Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-23T02:35:26.882Z",
+        "updated_at": "2023-09-23T05:26:43.577Z",
+        "movie_id": "f6fe96ab-d06c-4417-b119-8765f5105817"
+      },
+      {
+        "id": "730550b1-9ed5-4a0d-a157-eaf700637b8a",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-23T06:31:35.108Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T14:44:01.303Z",
+        "updated_at": "2023-09-22T12:11:38.157Z",
+        "movie_id": "cc1654c8-481f-404d-8c98-71f46809b822"
+      },
+      {
+        "id": "ee19d423-f3f0-4c6e-bb94-1b1589519571",
+        "name": "Natalie Portman",
+        "birth_date": "2023-09-22T12:40:32.976Z",
+        "nationality": "Israeli",
+        "gender": "Female",
+        "created_at": "2023-09-22T13:25:47.657Z",
+        "updated_at": "2023-09-22T15:21:27.525Z",
+        "movie_id": "f6fe96ab-d06c-4417-b119-8765f5105817"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e42ae912-ba8c-406d-8fb7-3fa33ad54bb2",
+        "email": "Xzavier98@roq.tech",
+        "firstName": "Saul",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75739154",
+        "tenantId": null
+      },
+      {
+        "reference": "32ea021c-8240-471d-818e-00931a679370",
+        "email": "Efren_Welch35@roq.tech",
+        "firstName": "Ebony",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28880541",
+        "tenantId": null
+      },
+      {
+        "reference": "a5b73823-3201-4ccd-9a90-6d23f89586a3",
+        "email": "Jacinthe_Zieme@roq.tech",
+        "firstName": "Stuart",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37157593",
+        "tenantId": null
+      },
+      {
+        "reference": "5e99230e-b816-43b1-b12c-1ed46c9ff750",
+        "email": "Isom_Effertz@roq.tech",
+        "firstName": "Billy",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/524.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d87c9149-2b7c-488b-bec3-2b926a7b74e7",
+        "email": "Kevin_Bartell@roq.tech",
+        "firstName": "Ariel",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/900.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "36c4b21e-f387-4166-bebd-84d509c3428b",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-22T16:15:45.496Z",
+        "genre": "Drama",
+        "rating": 22744,
+        "created_at": "2023-09-22T23:53:37.424Z",
+        "updated_at": "2023-09-22T22:37:14.629Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-22T19:21:01.132Z",
+        "genre": "Crime",
+        "rating": 15744,
+        "created_at": "2023-09-22T22:32:27.126Z",
+        "updated_at": "2023-09-22T22:57:57.269Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dbd1d386-2215-4f51-b139-47d4781b0ac6",
+        "title": "The Godfather",
+        "movie_director": "Francis Ford Coppola",
+        "release_date": "2023-09-22T16:14:20.809Z",
+        "genre": "Thriller",
+        "rating": 92800,
+        "created_at": "2023-09-22T23:13:16.414Z",
+        "updated_at": "2023-09-23T05:36:53.543Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d7e30634-f746-4a2b-a82f-cc32e6ab0262",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T21:25:13.640Z",
+        "genre": "Sci-Fi",
+        "rating": 67872,
+        "created_at": "2023-09-22T21:14:22.729Z",
+        "updated_at": "2023-09-23T00:06:23.071Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2a08a52e-a905-4055-80fc-9da6f742f771",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T21:39:57.497Z",
+        "genre": "Action",
+        "rating": 50808,
+        "created_at": "2023-09-23T04:10:58.578Z",
+        "updated_at": "2023-09-22T14:33:32.266Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "a73194e5-6eee-498a-9533-637be76ab740",
+        "content": "A must-watch movie!",
+        "rating": 97775,
+        "review_date": "2023-09-22T19:00:05.793Z",
+        "created_at": "2023-09-23T09:22:28.904Z",
+        "updated_at": "2023-09-22T19:47:26.931Z",
+        "movie_id": "2a08a52e-a905-4055-80fc-9da6f742f771",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1777c3f-3be8-43e3-9d62-0f16624ace0b",
+        "content": "Brilliant acting and storyline",
+        "rating": 46449,
+        "review_date": "2023-09-22T16:20:07.772Z",
+        "created_at": "2023-09-23T09:42:46.576Z",
+        "updated_at": "2023-09-23T07:12:36.093Z",
+        "movie_id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc5ccbd7-80e3-4311-ab92-b02e4a963214",
+        "content": "Highly recommended",
+        "rating": 37209,
+        "review_date": "2023-09-23T05:52:52.263Z",
+        "created_at": "2023-09-23T03:25:18.171Z",
+        "updated_at": "2023-09-22T12:56:22.944Z",
+        "movie_id": "d7e30634-f746-4a2b-a82f-cc32e6ab0262",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bf5eb29-5b5a-4611-9ebe-e1b166bf4cbb",
+        "content": "An absolute masterpiece",
+        "rating": 53627,
+        "review_date": "2023-09-22T21:20:42.888Z",
+        "created_at": "2023-09-23T01:47:12.811Z",
+        "updated_at": "2023-09-23T11:22:01.777Z",
+        "movie_id": "dbd1d386-2215-4f51-b139-47d4781b0ac6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f4aae5a-0ec1-4116-8f77-be9530c7e19a",
+        "content": "Impressive cinematography",
+        "rating": 94508,
+        "review_date": "2023-09-22T12:31:05.576Z",
+        "created_at": "2023-09-23T06:56:47.966Z",
+        "updated_at": "2023-09-22T23:45:38.147Z",
+        "movie_id": "2a08a52e-a905-4055-80fc-9da6f742f771",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "6c1a6984-fa05-47af-9cac-542cd13e5d17",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-22T15:37:04.925Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T00:26:24.884Z",
+        "updated_at": "2023-09-23T00:25:15.829Z",
+        "movie_id": "2a08a52e-a905-4055-80fc-9da6f742f771"
+      },
+      {
+        "id": "b3bcb14c-a70c-45ab-806d-73c41a08c43b",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-22T22:49:32.747Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-23T04:19:31.353Z",
+        "updated_at": "2023-09-22T18:24:31.436Z",
+        "movie_id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b"
+      },
+      {
+        "id": "919d699d-7532-43f8-9fb0-8e7bc066828c",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-23T08:17:19.108Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T17:51:48.328Z",
+        "updated_at": "2023-09-22T14:56:04.677Z",
+        "movie_id": "2a08a52e-a905-4055-80fc-9da6f742f771"
+      },
+      {
+        "id": "c68bfcc3-a7c6-453d-b237-7cc488c09408",
+        "name": "Stanley Kubrick",
+        "birth_date": "2023-09-23T07:54:21.996Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T16:27:44.368Z",
+        "updated_at": "2023-09-23T08:06:57.107Z",
+        "movie_id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b"
+      },
+      {
+        "id": "8df6d231-2ace-4d32-8b44-ff048fb7e989",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-23T02:21:28.297Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-23T06:03:46.385Z",
+        "updated_at": "2023-09-23T02:15:54.494Z",
+        "movie_id": "dbd1d386-2215-4f51-b139-47d4781b0ac6"
+      }
+    ],
+    "actor": [
+      {
+        "id": "b9b8544b-9ebd-4a7d-88b4-42e63a7e4899",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-22T13:20:38.744Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T02:04:37.273Z",
+        "updated_at": "2023-09-23T05:28:16.635Z",
+        "movie_id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b"
+      },
+      {
+        "id": "c0a983ef-828d-4b39-907f-328a1301ebf2",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-23T09:33:01.420Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T07:26:41.520Z",
+        "updated_at": "2023-09-22T20:24:10.498Z",
+        "movie_id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b"
+      },
+      {
+        "id": "4e9d2d95-c0ef-456f-9aaf-84d041ca7926",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-23T01:14:49.553Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T21:19:00.626Z",
+        "updated_at": "2023-09-23T08:00:32.426Z",
+        "movie_id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b"
+      },
+      {
+        "id": "8e995a8c-7b8e-4d23-a17f-ba2314bed48f",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-23T02:35:38.479Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T11:04:56.761Z",
+        "updated_at": "2023-09-23T05:39:21.553Z",
+        "movie_id": "b7ac77ec-1897-400d-a8f7-7b7584c5d96b"
+      },
+      {
+        "id": "94ac826b-b556-4edc-b8a5-c62c327dacc6",
+        "name": "Natalie Portman",
+        "birth_date": "2023-09-22T22:58:27.545Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-23T10:47:33.050Z",
+        "updated_at": "2023-09-22T15:25:12.245Z",
+        "movie_id": "d7e30634-f746-4a2b-a82f-cc32e6ab0262"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a48d27b7-e529-4254-9534-96c9c2e8871d",
+        "email": "Colten18@roq.tech",
+        "firstName": "Zachary",
+        "lastName": "Dickinson-Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32816662",
+        "tenantId": null
+      },
+      {
+        "reference": "f0159c28-73fd-4f30-9fd2-c6144a3336df",
+        "email": "Annamae.Johnston@roq.tech",
+        "firstName": "Madisyn",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cf4faf5f-9c2f-44b5-bb58-168dd866d5b3",
+        "email": "Melissa61@roq.tech",
+        "firstName": "Raven",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08c5535f-9a1c-47d2-a3f3-52b45b281a19",
+        "email": "Stan63@roq.tech",
+        "firstName": "Cordia",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71192173",
+        "tenantId": null
+      },
+      {
+        "reference": "e24fe198-6286-446e-a1ba-797f6b8c0adc",
+        "email": "Susana_Ebert87@roq.tech",
+        "firstName": "Hilton",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/686.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "089eca92-5966-4a45-8981-f27fd7d68f87",
+        "title": "The Matrix",
+        "movie_director": "Lana Wachowski",
+        "release_date": "2023-09-23T09:38:25.127Z",
+        "genre": "Action",
+        "rating": 44903,
+        "created_at": "2023-09-23T05:59:11.353Z",
+        "updated_at": "2023-09-22T20:38:50.844Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "91bf0cdd-0848-42c0-bb33-b85b1e3f94d0",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-23T10:56:32.880Z",
+        "genre": "Sci-Fi",
+        "rating": 1319,
+        "created_at": "2023-09-22T15:06:21.350Z",
+        "updated_at": "2023-09-23T06:49:17.280Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "55abce66-6be0-413d-8536-51427e456e4a",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-23T02:57:16.338Z",
+        "genre": "Crime",
+        "rating": 30642,
+        "created_at": "2023-09-22T21:52:53.079Z",
+        "updated_at": "2023-09-22T20:03:52.149Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "233635fa-9a8c-477f-965c-819892e65a16",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-23T05:57:35.121Z",
+        "genre": "Drama",
+        "rating": 65128,
+        "created_at": "2023-09-22T13:46:42.917Z",
+        "updated_at": "2023-09-23T01:48:05.134Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9b989874-52f8-4360-82ec-8b28a55aa086",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T14:59:29.739Z",
+        "genre": "Thriller",
+        "rating": 22330,
+        "created_at": "2023-09-22T20:09:19.436Z",
+        "updated_at": "2023-09-22T22:20:25.465Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "0bfd6b05-022e-4c77-a92d-e31465c324cc",
+        "content": "Great movie, highly recommended!",
+        "rating": 65452,
+        "review_date": "2023-09-22T17:48:04.945Z",
+        "created_at": "2023-09-22T22:24:19.488Z",
+        "updated_at": "2023-09-22T13:56:42.077Z",
+        "movie_id": "9b989874-52f8-4360-82ec-8b28a55aa086",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acf9bd4a-c536-4d58-a61a-3ff9c9be3b44",
+        "content": "A masterpiece of storytelling",
+        "rating": 90378,
+        "review_date": "2023-09-22T15:12:37.934Z",
+        "created_at": "2023-09-22T13:20:06.277Z",
+        "updated_at": "2023-09-22T16:18:46.861Z",
+        "movie_id": "9b989874-52f8-4360-82ec-8b28a55aa086",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed4519e5-d84c-4ab8-88db-3de9cc724f14",
+        "content": "Incredible performances by the cast",
+        "rating": 19989,
+        "review_date": "2023-09-22T20:04:36.134Z",
+        "created_at": "2023-09-23T03:25:32.069Z",
+        "updated_at": "2023-09-23T07:01:48.165Z",
+        "movie_id": "233635fa-9a8c-477f-965c-819892e65a16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4edf89b8-3410-4ac1-bd02-95b801f0b1ba",
+        "content": "Captivating plot with unexpected twists",
+        "rating": 51783,
+        "review_date": "2023-09-23T00:39:28.223Z",
+        "created_at": "2023-09-23T03:56:10.171Z",
+        "updated_at": "2023-09-23T01:06:29.822Z",
+        "movie_id": "55abce66-6be0-413d-8536-51427e456e4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27781a56-03a1-44eb-bb3e-7c5b89e9b6f1",
+        "content": "A must-watch for film enthusiasts",
+        "rating": 20975,
+        "review_date": "2023-09-23T11:10:17.167Z",
+        "created_at": "2023-09-23T01:06:40.385Z",
+        "updated_at": "2023-09-23T01:39:16.646Z",
+        "movie_id": "55abce66-6be0-413d-8536-51427e456e4a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "a7b9fb69-0183-4bc8-80de-34b465a8ffc8",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-22T14:27:21.572Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T09:59:21.335Z",
+        "updated_at": "2023-09-23T02:53:00.346Z",
+        "movie_id": "089eca92-5966-4a45-8981-f27fd7d68f87"
+      },
+      {
+        "id": "d74ea242-c85e-47b4-bfc4-88d404e9c62c",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-23T04:25:23.619Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-22T15:43:30.304Z",
+        "updated_at": "2023-09-23T09:21:39.996Z",
+        "movie_id": "9b989874-52f8-4360-82ec-8b28a55aa086"
+      },
+      {
+        "id": "4e9b6293-97e2-481a-a408-2d8c233d6d13",
+        "name": "Stanley Kubrick",
+        "birth_date": "2023-09-22T17:15:42.419Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T08:54:39.570Z",
+        "updated_at": "2023-09-23T00:15:35.466Z",
+        "movie_id": "55abce66-6be0-413d-8536-51427e456e4a"
+      },
+      {
+        "id": "1b49ef1c-4a65-4e2f-959e-0aa2e507c318",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-22T21:52:44.506Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T21:31:40.304Z",
+        "updated_at": "2023-09-23T08:09:33.881Z",
+        "movie_id": "55abce66-6be0-413d-8536-51427e456e4a"
+      },
+      {
+        "id": "612cc3a0-1287-498f-a665-1d8ba2542665",
+        "name": "Francis Ford Coppola",
+        "birth_date": "2023-09-22T21:46:22.136Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T06:13:03.450Z",
+        "updated_at": "2023-09-23T00:13:09.399Z",
+        "movie_id": "233635fa-9a8c-477f-965c-819892e65a16"
+      }
+    ],
+    "actor": [
+      {
+        "id": "d3683df9-a1a0-428a-ba29-d33e05a5e6b7",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-23T06:29:34.202Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T06:16:08.653Z",
+        "updated_at": "2023-09-22T21:54:49.038Z",
+        "movie_id": "233635fa-9a8c-477f-965c-819892e65a16"
+      },
+      {
+        "id": "58ddc2e4-b6c7-4b39-ac3b-929587277d51",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-23T01:18:29.919Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T13:02:35.690Z",
+        "updated_at": "2023-09-23T06:26:14.824Z",
+        "movie_id": "089eca92-5966-4a45-8981-f27fd7d68f87"
+      },
+      {
+        "id": "99c207a4-29d6-4890-9f41-11a2d7e54ac2",
+        "name": "Robert De Niro",
+        "birth_date": "2023-09-22T12:09:13.156Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T18:59:51.883Z",
+        "updated_at": "2023-09-22T15:09:46.552Z",
+        "movie_id": "089eca92-5966-4a45-8981-f27fd7d68f87"
+      },
+      {
+        "id": "6ebbca8e-a1d2-4ce2-bfc5-312cdb38ce78",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-23T10:59:38.924Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-23T09:38:37.825Z",
+        "updated_at": "2023-09-22T12:17:22.841Z",
+        "movie_id": "9b989874-52f8-4360-82ec-8b28a55aa086"
+      },
+      {
+        "id": "20975710-4e98-4d5b-bfeb-bf5ac4942be7",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-22T18:08:00.231Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T16:41:20.786Z",
+        "updated_at": "2023-09-22T23:45:25.296Z",
+        "movie_id": "9b989874-52f8-4360-82ec-8b28a55aa086"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "539d71e3-459a-423f-ae12-d645440d584b",
+        "email": "Darius_Monahan@roq.tech",
+        "firstName": "Betty",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1116.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f145c242-b3a9-4d5d-8c41-b6c65a08e671",
+        "email": "Kyla74@roq.tech",
+        "firstName": "Leanne",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80293630",
+        "tenantId": null
+      },
+      {
+        "reference": "35b03789-2653-46b4-8b22-02cb5889b958",
+        "email": "Kadin.Farrell97@roq.tech",
+        "firstName": "Irwin",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3969640",
+        "tenantId": null
+      },
+      {
+        "reference": "5140f5dc-3d46-43e4-a7dc-3a5fe747fc4e",
+        "email": "Zena.Reinger@roq.tech",
+        "firstName": "Demario",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/667.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6cd741af-aaa1-4671-945c-ddecb3c9eb5b",
+        "email": "Julianne_Tromp@roq.tech",
+        "firstName": "Bettie",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "c72f4843-af39-4bf0-ac61-de2ba213b920",
+        "title": "The Matrix",
+        "movie_director": "Lana Wachowski",
+        "release_date": "2023-09-22T14:13:08.200Z",
+        "genre": "Action",
+        "rating": 99214,
+        "created_at": "2023-09-22T21:28:25.680Z",
+        "updated_at": "2023-09-22T15:48:36.423Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "202b4849-0091-46d9-b441-3c54d89e367f",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T23:37:00.112Z",
+        "genre": "Sci-Fi",
+        "rating": 23290,
+        "created_at": "2023-09-22T15:59:28.743Z",
+        "updated_at": "2023-09-23T07:57:32.785Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "27ff600e-4aa3-4ae4-b00f-ce6cd80a104f",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-22T15:50:43.155Z",
+        "genre": "Drama",
+        "rating": 3717,
+        "created_at": "2023-09-23T04:02:01.249Z",
+        "updated_at": "2023-09-22T13:39:37.010Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5fd82f5d-48da-49b3-95ff-9ed603c6a47b",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-22T22:49:14.378Z",
+        "genre": "Crime",
+        "rating": 35388,
+        "created_at": "2023-09-23T02:45:16.850Z",
+        "updated_at": "2023-09-23T02:47:15.239Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2e84fb0d-bc52-438d-8e79-a52a5ce54157",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T12:59:12.669Z",
+        "genre": "Thriller",
+        "rating": 82040,
+        "created_at": "2023-09-23T02:22:50.272Z",
+        "updated_at": "2023-09-22T14:13:25.889Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "93b917f8-ea09-4d4a-ac87-1b4aa180b921",
+        "content": "I really enjoyed this movie!",
+        "rating": 56162,
+        "review_date": "2023-09-23T11:16:15.937Z",
+        "created_at": "2023-09-22T23:07:54.462Z",
+        "updated_at": "2023-09-23T07:25:37.677Z",
+        "movie_id": "c72f4843-af39-4bf0-ac61-de2ba213b920",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf3304a9-c74f-463e-87a8-513322e807a5",
+        "content": "Highly recommend it to everyone.",
+        "rating": 57884,
+        "review_date": "2023-09-23T09:44:53.202Z",
+        "created_at": "2023-09-22T21:36:01.459Z",
+        "updated_at": "2023-09-23T02:37:35.505Z",
+        "movie_id": "c72f4843-af39-4bf0-ac61-de2ba213b920",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2dc4bfb-5761-48dd-bccf-71e16ec0b963",
+        "content": "The acting was superb.",
+        "rating": 17400,
+        "review_date": "2023-09-23T02:10:08.703Z",
+        "created_at": "2023-09-22T19:43:41.064Z",
+        "updated_at": "2023-09-23T00:25:43.770Z",
+        "movie_id": "202b4849-0091-46d9-b441-3c54d89e367f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e060c2-aa82-4bd6-a0f5-813d6e47c9b2",
+        "content": "The plot was unpredictable.",
+        "rating": 93613,
+        "review_date": "2023-09-23T00:52:24.711Z",
+        "created_at": "2023-09-22T17:21:12.483Z",
+        "updated_at": "2023-09-22T23:13:46.526Z",
+        "movie_id": "202b4849-0091-46d9-b441-3c54d89e367f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a556fbb-34e5-4418-b1fc-41eec5f03334",
+        "content": "One of the best movies I've seen.",
+        "rating": 1267,
+        "review_date": "2023-09-23T04:16:13.026Z",
+        "created_at": "2023-09-22T12:00:15.491Z",
+        "updated_at": "2023-09-23T05:36:54.592Z",
+        "movie_id": "202b4849-0091-46d9-b441-3c54d89e367f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "554dabdf-a824-4ff6-b064-1fc0512ba113",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-23T01:29:42.092Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T22:09:49.093Z",
+        "updated_at": "2023-09-22T14:27:54.287Z",
+        "movie_id": "c72f4843-af39-4bf0-ac61-de2ba213b920"
+      },
+      {
+        "id": "f0b555b5-2d9b-4961-9c3f-3cde50b04fca",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-23T03:33:54.037Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T13:55:35.304Z",
+        "updated_at": "2023-09-23T09:33:31.708Z",
+        "movie_id": "27ff600e-4aa3-4ae4-b00f-ce6cd80a104f"
+      },
+      {
+        "id": "cfb8ccf8-f2ce-42e6-91d4-4b4d21d08f53",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-23T02:39:23.470Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-23T05:05:55.658Z",
+        "updated_at": "2023-09-22T20:26:03.155Z",
+        "movie_id": "c72f4843-af39-4bf0-ac61-de2ba213b920"
+      },
+      {
+        "id": "5ea6e9ac-a00c-4487-8730-99f58e1cf459",
+        "name": "Stanley Kubrick",
+        "birth_date": "2023-09-23T05:34:31.680Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T14:34:50.531Z",
+        "updated_at": "2023-09-23T11:02:43.598Z",
+        "movie_id": "c72f4843-af39-4bf0-ac61-de2ba213b920"
+      },
+      {
+        "id": "92674149-220f-40ff-9a23-b6f8def66898",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-23T04:11:29.914Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T18:21:46.680Z",
+        "updated_at": "2023-09-22T16:07:36.502Z",
+        "movie_id": "5fd82f5d-48da-49b3-95ff-9ed603c6a47b"
+      }
+    ],
+    "actor": [
+      {
+        "id": "8206b243-3880-4eef-9330-beb688fe9755",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-22T15:45:50.266Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T19:52:12.198Z",
+        "updated_at": "2023-09-23T11:02:44.415Z",
+        "movie_id": "c72f4843-af39-4bf0-ac61-de2ba213b920"
+      },
+      {
+        "id": "2e331dda-e33b-4508-9459-3fa2cfd3003e",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-22T19:53:52.907Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T15:34:11.829Z",
+        "updated_at": "2023-09-23T01:10:35.518Z",
+        "movie_id": "27ff600e-4aa3-4ae4-b00f-ce6cd80a104f"
+      },
+      {
+        "id": "83b229f4-40fc-45f9-a2a9-82c3a41003c5",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-23T10:19:13.184Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-23T08:32:05.446Z",
+        "updated_at": "2023-09-23T00:32:48.202Z",
+        "movie_id": "2e84fb0d-bc52-438d-8e79-a52a5ce54157"
+      },
+      {
+        "id": "02b5a857-97e2-411a-b2e6-31247dc9a273",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-22T20:24:05.285Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T13:34:23.451Z",
+        "updated_at": "2023-09-23T02:40:42.033Z",
+        "movie_id": "2e84fb0d-bc52-438d-8e79-a52a5ce54157"
+      },
+      {
+        "id": "06ebda98-b111-4bcc-a7d2-6307eaca7b29",
+        "name": "Jennifer Lawrence",
+        "birth_date": "2023-09-22T19:40:07.447Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T12:46:19.792Z",
+        "updated_at": "2023-09-22T20:32:39.397Z",
+        "movie_id": "c72f4843-af39-4bf0-ac61-de2ba213b920"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f5d829ba-621e-49b5-8399-3fa35e342244",
+        "email": "Linnea_Treutel@roq.tech",
+        "firstName": "Erik",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/836.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77d1c676-8b45-490b-b6d0-502ee04a5ca4",
+        "email": "Alene39@roq.tech",
+        "firstName": "Kaylah",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23780116",
+        "tenantId": null
+      },
+      {
+        "reference": "7ab83287-a911-40e0-9536-1f3035e75eda",
+        "email": "Queen_Stoltenberg@roq.tech",
+        "firstName": "Brielle",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61867538",
+        "tenantId": null
+      },
+      {
+        "reference": "092b5856-24a1-4d50-ae30-78a9eb965de8",
+        "email": "Adelbert_Marquardt-Schimmel56@roq.tech",
+        "firstName": "Rosalia",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89263235",
+        "tenantId": null
+      },
+      {
+        "reference": "c037c25d-a254-4c45-892a-4c59b54a9ff1",
+        "email": "Adeline.Zieme81@roq.tech",
+        "firstName": "Marty",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52230461",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "37a055e4-d799-426c-9c0a-b8b89eda4b12",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-22T18:12:11.696Z",
+        "genre": "Drama",
+        "rating": 85905,
+        "created_at": "2023-09-22T14:49:51.222Z",
+        "updated_at": "2023-09-23T09:13:46.264Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d5ba666-7671-4bad-bf2c-5d2b54edadf0",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-22T20:22:03.242Z",
+        "genre": "Crime",
+        "rating": 97066,
+        "created_at": "2023-09-22T13:51:40.172Z",
+        "updated_at": "2023-09-23T02:44:53.839Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3316cd2e-5622-4d98-8a5b-6e8dfe1563c4",
+        "title": "The Godfather",
+        "movie_director": "Francis Ford Coppola",
+        "release_date": "2023-09-22T19:05:14.166Z",
+        "genre": "Thriller",
+        "rating": 33200,
+        "created_at": "2023-09-22T13:07:13.934Z",
+        "updated_at": "2023-09-23T01:42:25.488Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b520cedd-a070-41e7-839f-df024f0b5bf8",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T22:09:10.706Z",
+        "genre": "Action",
+        "rating": 85957,
+        "created_at": "2023-09-22T14:28:17.846Z",
+        "updated_at": "2023-09-23T06:29:21.120Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "43f5b822-de90-4360-8f7b-f9abf6571dd3",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T17:08:49.211Z",
+        "genre": "Sci-Fi",
+        "rating": 38120,
+        "created_at": "2023-09-22T11:40:19.155Z",
+        "updated_at": "2023-09-22T14:53:24.356Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "fa4d527b-9ff5-49d5-bd85-67db83b106d4",
+        "content": "This movie was amazing!",
+        "rating": 89772,
+        "review_date": "2023-09-23T01:19:08.582Z",
+        "created_at": "2023-09-22T14:51:08.601Z",
+        "updated_at": "2023-09-22T23:15:32.974Z",
+        "movie_id": "43f5b822-de90-4360-8f7b-f9abf6571dd3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "625e1cba-6cb8-45f6-a534-0b1b64e031ee",
+        "content": "I highly recommend it.",
+        "rating": 15484,
+        "review_date": "2023-09-22T14:26:30.483Z",
+        "created_at": "2023-09-22T23:10:45.431Z",
+        "updated_at": "2023-09-22T19:54:46.992Z",
+        "movie_id": "0d5ba666-7671-4bad-bf2c-5d2b54edadf0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6abf125d-2128-4568-9726-fcacbf82c458",
+        "content": "The acting was superb.",
+        "rating": 77915,
+        "review_date": "2023-09-23T08:03:55.114Z",
+        "created_at": "2023-09-23T03:38:22.845Z",
+        "updated_at": "2023-09-22T16:07:17.377Z",
+        "movie_id": "3316cd2e-5622-4d98-8a5b-6e8dfe1563c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6c58985-36cb-40f4-af48-f6dde5b97688",
+        "content": "A must-watch film.",
+        "rating": 30419,
+        "review_date": "2023-09-22T13:38:08.185Z",
+        "created_at": "2023-09-22T19:30:10.227Z",
+        "updated_at": "2023-09-22T20:13:51.446Z",
+        "movie_id": "43f5b822-de90-4360-8f7b-f9abf6571dd3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84114199-e1c9-43ff-8fb8-ff14d4caa069",
+        "content": "I was captivated from start to finish.",
+        "rating": 24399,
+        "review_date": "2023-09-22T23:55:59.593Z",
+        "created_at": "2023-09-23T06:27:12.291Z",
+        "updated_at": "2023-09-23T00:40:48.079Z",
+        "movie_id": "0d5ba666-7671-4bad-bf2c-5d2b54edadf0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "3926d164-30d4-4563-8730-23c9b84578f9",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-22T20:15:20.324Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T00:10:46.338Z",
+        "updated_at": "2023-09-22T13:00:01.390Z",
+        "movie_id": "37a055e4-d799-426c-9c0a-b8b89eda4b12"
+      },
+      {
+        "id": "e2f1773b-11ff-4e8c-80cc-1c117205e14d",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-23T01:09:24.955Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-23T11:20:28.687Z",
+        "updated_at": "2023-09-22T12:34:54.826Z",
+        "movie_id": "37a055e4-d799-426c-9c0a-b8b89eda4b12"
+      },
+      {
+        "id": "93202fa7-f685-44a4-92ae-1f0262b4152f",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-23T10:13:47.872Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-23T05:58:12.129Z",
+        "updated_at": "2023-09-22T19:44:55.800Z",
+        "movie_id": "43f5b822-de90-4360-8f7b-f9abf6571dd3"
+      },
+      {
+        "id": "2fa6cb8e-0e21-47ea-b91b-5b759623956d",
+        "name": "Quentin Tarantino",
+        "birth_date": "2023-09-22T18:06:16.049Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T09:53:36.742Z",
+        "updated_at": "2023-09-23T10:09:37.580Z",
+        "movie_id": "37a055e4-d799-426c-9c0a-b8b89eda4b12"
+      },
+      {
+        "id": "f36cd0a5-a213-42dc-935d-c260b2ec7261",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-22T12:39:52.842Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T20:19:02.725Z",
+        "updated_at": "2023-09-23T04:06:20.118Z",
+        "movie_id": "37a055e4-d799-426c-9c0a-b8b89eda4b12"
+      }
+    ],
+    "actor": [
+      {
+        "id": "b1462316-d033-4a68-9f3e-6546a58794aa",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-22T13:34:57.594Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T17:48:15.570Z",
+        "updated_at": "2023-09-22T17:47:32.444Z",
+        "movie_id": "3316cd2e-5622-4d98-8a5b-6e8dfe1563c4"
+      },
+      {
+        "id": "5aab2506-f57d-402d-8eeb-b153659d7559",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-22T20:17:31.787Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T15:11:38.873Z",
+        "updated_at": "2023-09-22T17:59:11.345Z",
+        "movie_id": "3316cd2e-5622-4d98-8a5b-6e8dfe1563c4"
+      },
+      {
+        "id": "2e466373-0645-416d-b28e-cb7fd64e063e",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-23T05:38:24.432Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T22:34:23.088Z",
+        "updated_at": "2023-09-22T18:14:00.222Z",
+        "movie_id": "b520cedd-a070-41e7-839f-df024f0b5bf8"
+      },
+      {
+        "id": "7f071402-9ef4-4a1b-af14-c2302be3c1bd",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-22T12:18:16.220Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T05:24:42.173Z",
+        "updated_at": "2023-09-22T14:07:52.013Z",
+        "movie_id": "43f5b822-de90-4360-8f7b-f9abf6571dd3"
+      },
+      {
+        "id": "50496e5a-3207-4fe8-bdaa-07afba035895",
+        "name": "Natalie Portman",
+        "birth_date": "2023-09-23T05:38:43.177Z",
+        "nationality": "Israeli",
+        "gender": "Female",
+        "created_at": "2023-09-23T05:38:36.110Z",
+        "updated_at": "2023-09-23T10:16:49.653Z",
+        "movie_id": "3316cd2e-5622-4d98-8a5b-6e8dfe1563c4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d41efee6-5c85-454f-b25a-63f59079d790",
+        "email": "Kameron.Hane-Toy2@roq.tech",
+        "firstName": "Jodie",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/828.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "422a29c8-9864-4259-88c0-16f7c04dc074",
+        "email": "Ford.Douglas82@roq.tech",
+        "firstName": "Connor",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26411577",
+        "tenantId": null
+      },
+      {
+        "reference": "3cfa0155-0616-4210-aeaf-6cc4c68a31db",
+        "email": "Coleman_Kutch@roq.tech",
+        "firstName": "Evelyn",
+        "lastName": "Hahn-Pollich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1120.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eaa3f78a-5e39-4f0a-8db8-114710f6ce32",
+        "email": "Larissa_Cronin@roq.tech",
+        "firstName": "Carlie",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70198832",
+        "tenantId": null
+      },
+      {
+        "reference": "b99e6297-6afd-4ba8-8aa1-ced9eae78e2c",
+        "email": "Freeman.Fadel@roq.tech",
+        "firstName": "Murl",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88100515",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "9f188be5-754b-4ea4-890e-3e28e2fe5cc7",
+        "title": "The Matrix",
+        "movie_director": "Lana Wachowski",
+        "release_date": "2023-09-22T17:48:54.637Z",
+        "genre": "Science Fiction",
+        "rating": 50938,
+        "created_at": "2023-09-22T13:51:05.943Z",
+        "updated_at": "2023-09-22T23:14:01.639Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "915bc1a2-fdd2-4947-8601-1cb301d697ea",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T23:29:12.458Z",
+        "genre": "Thriller",
+        "rating": 13586,
+        "created_at": "2023-09-22T23:25:54.172Z",
+        "updated_at": "2023-09-22T15:58:13.001Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "94f8845f-d28d-46c8-b392-55d2ed23a244",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-22T22:02:55.927Z",
+        "genre": "Drama",
+        "rating": 44726,
+        "created_at": "2023-09-23T07:05:16.639Z",
+        "updated_at": "2023-09-23T01:11:22.423Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cb084fd4-1008-432b-961c-178dce090049",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-22T18:25:39.203Z",
+        "genre": "Crime",
+        "rating": 67891,
+        "created_at": "2023-09-22T15:16:25.542Z",
+        "updated_at": "2023-09-22T22:17:20.471Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "55f2f085-8407-4d28-8db5-eea26931fcbd",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T23:55:55.443Z",
+        "genre": "Action",
+        "rating": 45499,
+        "created_at": "2023-09-22T21:12:01.768Z",
+        "updated_at": "2023-09-23T06:39:54.351Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "d53aa3aa-bb0a-4dde-968c-3a8d5b894deb",
+        "content": "Great movie!",
+        "rating": 45652,
+        "review_date": "2023-09-23T04:02:02.354Z",
+        "created_at": "2023-09-23T05:39:01.000Z",
+        "updated_at": "2023-09-23T03:49:10.689Z",
+        "movie_id": "94f8845f-d28d-46c8-b392-55d2ed23a244",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d23adff1-db18-428e-8ff5-006a71be1e83",
+        "content": "Highly recommended!",
+        "rating": 98795,
+        "review_date": "2023-09-22T19:42:37.710Z",
+        "created_at": "2023-09-23T06:16:42.036Z",
+        "updated_at": "2023-09-22T16:12:16.337Z",
+        "movie_id": "55f2f085-8407-4d28-8db5-eea26931fcbd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21892f1c-3bb0-4214-9c87-f45d2e024429",
+        "content": "A must-watch!",
+        "rating": 49686,
+        "review_date": "2023-09-23T09:15:08.763Z",
+        "created_at": "2023-09-23T01:38:09.634Z",
+        "updated_at": "2023-09-23T09:09:09.394Z",
+        "movie_id": "cb084fd4-1008-432b-961c-178dce090049",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "496ce70e-5a68-4c1c-a40d-013fea0b331f",
+        "content": "Brilliant performance!",
+        "rating": 58479,
+        "review_date": "2023-09-22T11:53:02.082Z",
+        "created_at": "2023-09-22T15:38:56.397Z",
+        "updated_at": "2023-09-22T12:58:22.295Z",
+        "movie_id": "55f2f085-8407-4d28-8db5-eea26931fcbd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31e14c25-fb2f-4d23-8239-869511274aa8",
+        "content": "Impressive storyline!",
+        "rating": 67606,
+        "review_date": "2023-09-23T08:28:51.013Z",
+        "created_at": "2023-09-22T23:18:30.637Z",
+        "updated_at": "2023-09-23T00:52:42.043Z",
+        "movie_id": "55f2f085-8407-4d28-8db5-eea26931fcbd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "5d714abe-0691-41c7-89bf-ea35ad9cf513",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-22T22:02:26.160Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T20:09:43.706Z",
+        "updated_at": "2023-09-22T11:48:23.261Z",
+        "movie_id": "55f2f085-8407-4d28-8db5-eea26931fcbd"
+      },
+      {
+        "id": "c4ecf577-2be3-4f0d-accc-91680d1eff4a",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-22T18:45:08.463Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-23T06:18:22.367Z",
+        "updated_at": "2023-09-22T19:59:22.032Z",
+        "movie_id": "94f8845f-d28d-46c8-b392-55d2ed23a244"
+      },
+      {
+        "id": "7e3a1720-5b7b-49ed-bde3-ee50818b9688",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-23T06:41:58.374Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-23T06:03:39.389Z",
+        "updated_at": "2023-09-22T21:05:06.467Z",
+        "movie_id": "94f8845f-d28d-46c8-b392-55d2ed23a244"
+      },
+      {
+        "id": "7cd3c6ac-832b-4646-9682-82f29a58b534",
+        "name": "Quentin Tarantino",
+        "birth_date": "2023-09-22T12:28:51.652Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T09:17:59.487Z",
+        "updated_at": "2023-09-23T00:41:32.685Z",
+        "movie_id": "94f8845f-d28d-46c8-b392-55d2ed23a244"
+      },
+      {
+        "id": "f66ab02a-c8fd-48be-b7f0-563a13f95994",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-22T14:40:22.567Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T19:17:50.475Z",
+        "updated_at": "2023-09-22T15:54:10.474Z",
+        "movie_id": "94f8845f-d28d-46c8-b392-55d2ed23a244"
+      }
+    ],
+    "actor": [
+      {
+        "id": "76e79c57-057b-40d1-bb08-2dff5353866e",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-23T06:11:43.672Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T18:34:36.052Z",
+        "updated_at": "2023-09-22T19:04:09.450Z",
+        "movie_id": "cb084fd4-1008-432b-961c-178dce090049"
+      },
+      {
+        "id": "40099e91-e4c3-45bf-af00-37e1e9a80b73",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-22T22:56:29.519Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T21:13:44.333Z",
+        "updated_at": "2023-09-23T08:39:24.053Z",
+        "movie_id": "55f2f085-8407-4d28-8db5-eea26931fcbd"
+      },
+      {
+        "id": "2c9c0b09-5682-4d32-956b-8f5d176cbcea",
+        "name": "Robert De Niro",
+        "birth_date": "2023-09-22T17:45:04.952Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T16:22:40.981Z",
+        "updated_at": "2023-09-23T08:33:25.410Z",
+        "movie_id": "9f188be5-754b-4ea4-890e-3e28e2fe5cc7"
+      },
+      {
+        "id": "92a86ade-c6b5-40a0-a4dd-0306463e1ae6",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-22T23:26:03.376Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T02:17:59.166Z",
+        "updated_at": "2023-09-22T22:32:29.128Z",
+        "movie_id": "94f8845f-d28d-46c8-b392-55d2ed23a244"
+      },
+      {
+        "id": "1f3d4387-4b8c-4de1-bfbc-09530305d673",
+        "name": "Johnny Depp",
+        "birth_date": "2023-09-23T07:40:19.503Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T19:34:12.314Z",
+        "updated_at": "2023-09-23T00:05:55.354Z",
+        "movie_id": "9f188be5-754b-4ea4-890e-3e28e2fe5cc7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1a0f0f46-c006-4954-b265-c6d7946a5c15",
+        "email": "Elwyn.Koelpin@roq.tech",
+        "firstName": "Constance",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/526.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5f6ebe7-7c2b-4a64-9cee-c61bcaadc485",
+        "email": "Myah_Paucek@roq.tech",
+        "firstName": "Herbert",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/864.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd0f70e7-3a07-4d90-b020-31bb3239a25f",
+        "email": "Meda_Altenwerth@roq.tech",
+        "firstName": "Kayleigh",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76391068",
+        "tenantId": null
+      },
+      {
+        "reference": "c4b538fb-9336-4540-b3d9-725e89030b46",
+        "email": "Electa.Hodkiewicz-OConner57@roq.tech",
+        "firstName": "Clement",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16681781",
+        "tenantId": null
+      },
+      {
+        "reference": "01bb8e3f-8c28-45bb-ac22-be9d23214a89",
+        "email": "Giovanni_Blanda-Gislason71@roq.tech",
+        "firstName": "Dusty",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70829472",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "ccf1f2b3-cfd3-4800-afe1-ed1053600a12",
+        "title": "The Matrix",
+        "movie_director": "Lana Wachowski",
+        "release_date": "2023-09-22T21:57:43.049Z",
+        "genre": "Action",
+        "rating": 10582,
+        "created_at": "2023-09-23T06:51:33.598Z",
+        "updated_at": "2023-09-22T19:34:46.703Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "368d06ac-ed66-4c12-ba74-92bfb84c238b",
+        "title": "Inception",
+        "movie_director": "Christopher Nolan",
+        "release_date": "2023-09-22T17:10:01.102Z",
+        "genre": "Sci-Fi",
+        "rating": 98018,
+        "created_at": "2023-09-22T20:35:03.776Z",
+        "updated_at": "2023-09-23T11:10:34.232Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0c4df2aa-0293-4df6-970e-8d2727c9f47a",
+        "title": "Pulp Fiction",
+        "movie_director": "Quentin Tarantino",
+        "release_date": "2023-09-23T04:00:32.556Z",
+        "genre": "Crime",
+        "rating": 39601,
+        "created_at": "2023-09-23T04:15:35.583Z",
+        "updated_at": "2023-09-22T19:27:57.301Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a6933e79-37d2-44eb-9400-530db73e2d83",
+        "title": "The Shawshank Redemption",
+        "movie_director": "Frank Darabont",
+        "release_date": "2023-09-22T23:03:08.056Z",
+        "genre": "Drama",
+        "rating": 38898,
+        "created_at": "2023-09-23T05:33:46.019Z",
+        "updated_at": "2023-09-22T14:46:40.536Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "44798231-2e6d-44dd-81bc-3ac6af49b681",
+        "title": "Fight Club",
+        "movie_director": "David Fincher",
+        "release_date": "2023-09-22T19:35:47.474Z",
+        "genre": "Thriller",
+        "rating": 90424,
+        "created_at": "2023-09-23T00:34:27.122Z",
+        "updated_at": "2023-09-23T06:58:59.198Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "7d979f91-1e0d-48b7-b3e2-83bb03e27376",
+        "content": "This movie was amazing!",
+        "rating": 86968,
+        "review_date": "2023-09-22T23:51:27.118Z",
+        "created_at": "2023-09-23T05:31:10.831Z",
+        "updated_at": "2023-09-22T23:44:53.510Z",
+        "movie_id": "ccf1f2b3-cfd3-4800-afe1-ed1053600a12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c31dc65-9421-4bc6-b0cc-f2b126886ae3",
+        "content": "Highly recommend it!",
+        "rating": 2759,
+        "review_date": "2023-09-22T17:04:43.597Z",
+        "created_at": "2023-09-23T03:18:50.739Z",
+        "updated_at": "2023-09-23T05:50:37.763Z",
+        "movie_id": "a6933e79-37d2-44eb-9400-530db73e2d83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58332f09-487c-4128-9aed-a6dc7b9f8339",
+        "content": "The plot twist was mind-blowing.",
+        "rating": 82013,
+        "review_date": "2023-09-22T11:31:41.820Z",
+        "created_at": "2023-09-22T21:40:13.741Z",
+        "updated_at": "2023-09-23T05:54:13.126Z",
+        "movie_id": "0c4df2aa-0293-4df6-970e-8d2727c9f47a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5090c2ea-d8fd-4d24-9ead-385f86d2e2af",
+        "content": "One of the best movies I've ever seen.",
+        "rating": 46216,
+        "review_date": "2023-09-22T22:32:10.125Z",
+        "created_at": "2023-09-22T12:07:13.886Z",
+        "updated_at": "2023-09-23T10:16:06.290Z",
+        "movie_id": "368d06ac-ed66-4c12-ba74-92bfb84c238b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4746a094-e7d8-487b-90f4-855acb61c666",
+        "content": "A must-watch for all movie lovers.",
+        "rating": 94305,
+        "review_date": "2023-09-22T17:59:57.457Z",
+        "created_at": "2023-09-23T06:54:49.851Z",
+        "updated_at": "2023-09-22T12:12:09.503Z",
+        "movie_id": "0c4df2aa-0293-4df6-970e-8d2727c9f47a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "director": [
+      {
+        "id": "4b9295de-8c48-488d-af4f-89f805e3914d",
+        "name": "Steven Spielberg",
+        "birth_date": "2023-09-23T02:10:14.952Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T01:54:26.183Z",
+        "updated_at": "2023-09-23T01:05:06.191Z",
+        "movie_id": "368d06ac-ed66-4c12-ba74-92bfb84c238b"
+      },
+      {
+        "id": "e585a69a-7d04-4035-8314-8270caf6d7ba",
+        "name": "Martin Scorsese",
+        "birth_date": "2023-09-23T08:44:04.649Z",
+        "nationality": "Italian",
+        "gender": "Male",
+        "created_at": "2023-09-22T17:24:10.418Z",
+        "updated_at": "2023-09-22T22:44:57.862Z",
+        "movie_id": "44798231-2e6d-44dd-81bc-3ac6af49b681"
+      },
+      {
+        "id": "3ee91262-900c-4f3d-a051-7722babdce95",
+        "name": "Stanley Kubrick",
+        "birth_date": "2023-09-22T12:06:03.579Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T18:45:48.210Z",
+        "updated_at": "2023-09-23T08:53:26.559Z",
+        "movie_id": "ccf1f2b3-cfd3-4800-afe1-ed1053600a12"
+      },
+      {
+        "id": "fd919e5d-ba39-4e73-aa71-dda0e4086d9b",
+        "name": "Alfred Hitchcock",
+        "birth_date": "2023-09-23T05:15:39.867Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T11:43:17.397Z",
+        "updated_at": "2023-09-23T05:39:39.823Z",
+        "movie_id": "a6933e79-37d2-44eb-9400-530db73e2d83"
+      },
+      {
+        "id": "49e3d21c-9510-475d-99ef-d1505039e6f8",
+        "name": "Christopher Nolan",
+        "birth_date": "2023-09-22T20:07:04.886Z",
+        "nationality": "British",
+        "gender": "Male",
+        "created_at": "2023-09-22T23:44:47.052Z",
+        "updated_at": "2023-09-23T02:29:25.709Z",
+        "movie_id": "368d06ac-ed66-4c12-ba74-92bfb84c238b"
+      }
+    ],
+    "actor": [
+      {
+        "id": "a54fd7fc-b521-4ac5-be65-20708b5b418a",
+        "name": "Tom Hanks",
+        "birth_date": "2023-09-23T04:34:05.779Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-23T07:11:31.618Z",
+        "updated_at": "2023-09-22T14:01:53.433Z",
+        "movie_id": "368d06ac-ed66-4c12-ba74-92bfb84c238b"
+      },
+      {
+        "id": "503129e0-ff36-46ec-86bf-07b43ae96421",
+        "name": "Leonardo DiCaprio",
+        "birth_date": "2023-09-23T08:02:00.636Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T15:09:45.077Z",
+        "updated_at": "2023-09-23T02:48:46.269Z",
+        "movie_id": "0c4df2aa-0293-4df6-970e-8d2727c9f47a"
+      },
+      {
+        "id": "e754e818-eef8-488d-88dc-c63f893192a0",
+        "name": "Meryl Streep",
+        "birth_date": "2023-09-23T03:49:20.758Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T21:11:38.451Z",
+        "updated_at": "2023-09-22T13:24:53.357Z",
+        "movie_id": "44798231-2e6d-44dd-81bc-3ac6af49b681"
+      },
+      {
+        "id": "33f31a46-fb3c-4389-9068-2cd99b5253a5",
+        "name": "Brad Pitt",
+        "birth_date": "2023-09-23T01:52:53.028Z",
+        "nationality": "American",
+        "gender": "Male",
+        "created_at": "2023-09-22T15:14:27.176Z",
+        "updated_at": "2023-09-23T04:48:24.843Z",
+        "movie_id": "44798231-2e6d-44dd-81bc-3ac6af49b681"
+      },
+      {
+        "id": "9dbbc2fa-d879-451b-a1c3-b0db7d540cba",
+        "name": "Jennifer Lawrence",
+        "birth_date": "2023-09-23T10:04:37.855Z",
+        "nationality": "American",
+        "gender": "Female",
+        "created_at": "2023-09-22T16:15:49.807Z",
+        "updated_at": "2023-09-23T05:13:13.770Z",
+        "movie_id": "368d06ac-ed66-4c12-ba74-92bfb84c238b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a4c1725d-7e90-4aaf-b4d9-6c89fee7c91f",
+        "email": "Mikel77@roq.tech",
+        "firstName": "Diana",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1139.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3912c04e-de19-45b0-9749-e592971a9bea",
+        "email": "Adolfo99@roq.tech",
+        "firstName": "Arvilla",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97607987",
+        "tenantId": null
+      },
+      {
+        "reference": "0059a4cb-4ac7-4d74-931e-e22d126c5ea5",
+        "email": "Darrion_Treutel35@roq.tech",
+        "firstName": "Mose",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/956.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d792387c-df53-4e86-94fc-99195a089898",
+        "email": "Marcia.Rolfson15@roq.tech",
+        "firstName": "Arne",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43280486",
+        "tenantId": null
+      },
+      {
+        "reference": "6aa9fdbe-763c-4e7c-9b97-81c9792eea16",
+        "email": "Triston.Rice@roq.tech",
+        "firstName": "Arno",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20773184",
+        "tenantId": null
+      }
+    ]
+  }
+]
